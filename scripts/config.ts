@@ -24,7 +24,7 @@ const config: ResourceManagerConfig = {
                         defines: { DEBUG: true, RELEASE: false },
                         typescript: { mode: 'modern' },
                         html: {
-                            templateFilePath: "template/web/index.html"
+                            templateFilePath: "bin/index.html"
                         },
                         open: true
                     }),
